@@ -69,8 +69,11 @@ theme: yilia #当前主题名称
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@git.coding.net:ivr360/blog.git #git@git.coding.net:ivr360/ivr360.coding.me.git
-  branch: master
+  #repository: git@git.coding.net:ivr360/blog.git #git@git.coding.net:ivr360/ivr360.coding.me.git
+  repo: 
+    github: git@github.com:jxv007/jxv007.github.io.git,master
+    coding: git@git.coding.net:ivr360/blog.git,master
+  #branch: master
 
 jsonContent:
   meta: false
