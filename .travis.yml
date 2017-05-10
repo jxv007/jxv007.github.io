@@ -5,6 +5,13 @@ branches:
   only:
   - dev  # 设置自动化部署的源码分支
 
+deploy: 
+  provider: pages
+  skip_cleanup: true
+  github_token: $GH_TOKEN
+  on:
+    branch: master
+
 # ------------------------------------------------
 # 下面是你的Token加密信息，不要替换
 # ------------------------------------------------
